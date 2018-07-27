@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 
 class About extends Component {
   render() {
@@ -12,25 +13,27 @@ class About extends Component {
                     About Me;
                 </h1>
                 <p>
-                    Just another Web Developer
+                    A little more about me.
                 </p>
                 <hr />
                 <p>
-                    My name is <b>Bayu Bimantara</b> you can call me <b>Bayu</b>, <br />
+                    My name is <b>Bayu Bimantara</b> you can call me <b>Bayu</b>.<br />
                     I decide to become Web Developer as my career path.<br/>
                     I'm Freelance Web Developer based in Bandung, West java.<br />
-                    Currently I'm an <b>Informatics Engineering</b> student at <b>STMIK Bandung</b>.
+                    Currently I'm an <b>Informatics Engineering</b> student at <a href="stmik-bandung.ac.id">STMIK Bandung</a>.
                 </p>
                 <p>
-                    I'm enthusiast with Web Technology, especially on Back-end.<br />
-                    Now I'm using <b>Laravel</b>, <b>Lumen</b>, <b>Vue.Js</b>. It is always difficult in the first time, but I always learn and try.
+                    Love spending way too much time on the computer, <br />
+                    also enthusiast with the Web Technology specially on Back-end.<br />
+                    I'm using <a href="laravel.com">Laravel</a> on the Back-end, and using <a href="reacjs.org">ReactJS</a> on the Front-end.<br />
+                    Sometimes I'm learning about hybrid application using <a href="https://ionicframework.com/">Ionic Framework</a>.
+                </p>
+
+                <p>
+                    To develope what I learn,<br /> I'm working on my <b>undone</b> personal projects.<br /> Some my personal projects will be shared on my website.<br />
                 </p>
                 <p>
-                    To develope what I learn,<br /> I'm working on my <b>undone</b> personal projects.<br /> Some my <b>published</b> personal project will be shared here.<br />
-                    I'm building website apps with <b>Laravel</b> and <b>Vue.Js</b> and sometimes I building mobile apps using <b>Ionic Framework</b>.<br />
-                </p>
-                <p>
-                    Want to see my projects? <a href="#!/projects">click here!</a>
+                    Want to see my <NavLink to="/projects">projects</NavLink>? or scroll down to see my skills.
                 </p>
             </div>
         </div>

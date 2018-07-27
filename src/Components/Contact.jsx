@@ -11,6 +11,7 @@ class About extends Component {
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
                                     <h1>Contact Me;</h1>
+                                    <p>Say hello to me!</p>
                                     <hr />
                                     <p>
                                         You can find me in another universe :
@@ -32,15 +33,6 @@ class About extends Component {
                                                 </li>
                                             </ul>
                                     </p>
-
-                                    <p>
-                                        And, if you have a beautiful, awesome projects hire me okay! it will be great experience if you want collaborate with me.
-                                    </p>
-
-                                    <p>
-                                        Thank you so much <i class="twa twa-grimacing"></i>
-                                    </p>
-
                                 </div>
                             </div>
                         </div>

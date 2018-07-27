@@ -18,18 +18,12 @@ class Home extends Component {
                                     <h1>
                                         Bayu Bimantara;
                                     </h1>
-                                    <p>
-                                        Web Developer
-                                    </p>
                                     <hr />
                                     <p>
-                                        <b>Hello world!</b>
-                                    </p> 
-                                    <p>
-                                        Welcome to my website, you can call me <b>Bayu</b> <i className="twa twa-grin"></i>
+                                        Hello! I'm <b>Bayu Bimantara</b>, a Web Developer.
                                     </p>
                                     <p>
-                                        Your curious about me? <NavLink to="/about">go to here!</NavLink>
+                                        Welcome to my website, curious about me? <NavLink to="/about">go here!</NavLink>
                                     </p>
                                 </div>
                             </div>

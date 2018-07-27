@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Switch, Link, NavLink } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, NavLink } from "react-router-dom";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
 import NotFound from "./Components/NotFound";
 import './App.css';
 
@@ -14,7 +15,7 @@ class App extends Component {
           <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
               <div class="navbar-header">
-                  <a class="navbar-brand" href="#">Bayu Bimantara</a>
+                  <a class="navbar-brand" href="/">Bayu Bimantara</a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -30,8 +31,12 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/projects" component={Projects} />
             <Route component={NotFound} />
           </Switch>
+          <footer className="footer">
+            <p>Made by Bayu Bimantara with <a href="reactjs.org">ReactJS</a> <i className="twa twa-heart"></i></p>
+          </footer>
         </div>
       </Router>
     );
