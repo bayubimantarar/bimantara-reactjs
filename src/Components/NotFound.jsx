@@ -15,7 +15,7 @@ class NotFound extends Component {
                                     </h1>
                                     <hr />
                                     <p>
-                                        How can you go to here? Just click back in your browser, or if you have any question or found some bug, let me know by email me: <a href="mailto:me@bimantara.web.id">me@bimantara.web.id</a>
+                                        How can you go to here? Just click back in your browser.
                                     </p>
                                 </div>
                             </div>

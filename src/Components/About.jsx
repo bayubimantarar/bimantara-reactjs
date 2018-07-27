@@ -47,7 +47,7 @@ class About extends Component {
                     <i className="devicon-html5-plain colored skills-icon"></i>
                 </div>
                 <h1>
-                    HTML5
+                    HTML
                 </h1>
                 <p>
                     Learn the basics and how to write semantic <b>HTML</b>, and structure the DOM properly.
@@ -62,7 +62,7 @@ class About extends Component {
                     <i className="devicon-css3-plain colored skills-icon"></i>
                 </div>
                 <h1>
-                    CSS3
+                    CSS
                 </h1>
                 <p>
                     Learn the basics of <b>CSS</b> how to use Grid, Flexbox, Media Queries, and Responsive Websites.
@@ -92,7 +92,7 @@ class About extends Component {
                     <i className="devicon-php-plain colored skills-icon"></i>
                 </div>
                 <h1>
-                    PHP7
+                    PHP
                 </h1>
                 <p>
                     Learn the syntax, Procedural PHP, Object Oriented Programming (OOP), PDO.

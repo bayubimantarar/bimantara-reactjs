@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
+import mockup from '../mockup.svg';
 
 class Home extends Component {
   render() {
@@ -11,7 +12,7 @@ class Home extends Component {
                         <div className="panel-body">
                             <div className="row">
                                 <div className="col-md-6 col-xs-12">
-                                    <img src="assets/img/mockup@1.png" className="img-responsive" />
+                                    <img src={mockup} className="img-responsive" alt="Mockup" />
                                 </div>
                                 <div className="col-md-6 col-xs-12">
                                     <h1>
@@ -28,7 +29,7 @@ class Home extends Component {
                                         Welcome to my website, you can call me <b>Bayu</b> <i className="twa twa-grin"></i>
                                     </p>
                                     <p>
-                                        Your curious about me? <NavLink to="/about">Go to here!</NavLink>
+                                        Your curious about me? <NavLink to="/about">go to here!</NavLink>
                                     </p>
                                 </div>
                             </div>
