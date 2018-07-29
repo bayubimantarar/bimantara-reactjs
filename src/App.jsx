@@ -34,9 +34,6 @@ class App extends Component {
             <Route path="/projects" component={Projects} />
             <Route component={NotFound} />
           </Switch>
-          <footer className="footer">
-            <p>Made by Bayu Bimantara with <a href="reactjs.org">ReactJS</a> <i className="twa twa-heart"></i></p>
-          </footer>
         </div>
       </Router>
     );
